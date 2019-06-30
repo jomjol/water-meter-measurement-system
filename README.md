@@ -2,7 +2,7 @@
 This is an overview of different project part to digitalize an analog water meter and use it for a house automatization system to controll the water consumption.
 
 # Overview
-<img src="./images/overview.png" width="80">
+<img src="./images/overview.png">
 
 The system consists of a hardware fixture and and successiv software code to transform this finally to a measurement value for a database input.
 
