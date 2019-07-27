@@ -15,4 +15,7 @@ The system consists of a hardware fixture and and successiv software code to tra
 | Alignment and decomposition |	Image processing with OpenCV library to extract the needed features  | [https://github.com/jomjol/water-meter-image-cut](https://github.com/jomjol/water-meter-image-cut) |
 | OCR for full digits |	Usage for OCR to extract the m³ part of the water meter  | [https://github.com/jomjol/neural-network-digital-counter-readout](https://github.com/jomjol/neural-network-digital-counter-readout) |
 | Analog to Digital Readout |	Usage of a Neural Network to digitalize analog pointers | [https://github.com/jomjol/neural-network-analog-needle-readout](https://github.com/jomjol/neural-network-analog-needle-readout) |
-| To Database |	Process digitalized numbers and insert into a database | n.a. |
+| Summary for DB Input | Process digitalized numbers and convert to m³ value | Full server with all previous steps included: [https://github.com/jomjol/water-meter-system-complete](https://github.com/jomjol/water-meter-system-complete) |
+
+
+The last repository [https://github.com/jomjol/water-meter-system-complete](https://github.com/jomjol/water-meter-system-complete) contains all previous steps (image cutting, Analog and Digital Readout) and combines them to a full functional server to extract the water meter reading from an image as input.
