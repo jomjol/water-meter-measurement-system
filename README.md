@@ -10,13 +10,13 @@ The system consists of a hardware fixture and and successiv software code to tra
 To get an running system one needs 3 components:
 
 
-| Component | 	Usage  |	Link |
+| Component | 	Purpose  |	Link |
 |:--------------:|:-------------|:--------|
 | 1. Mechanical Fixture |	Hardware components to fix a camera and illumination on a water meter  | [https://www.thingiverse.com/thing:3238162](https://www.thingiverse.com/thing:3238162)  |
 | 2. Taking pictures |	ESP8266 based html server to provide pictures from the camera  | [https://github.com/jomjol/water-meter-picture-provider](https://github.com/jomjol/water-meter-picture-provider)  |
 | 3. Server for data processing and evaluation |	Image processing (Cutting, OCR, ...) to extract the needed features  | Overview: [https://github.com/jomjol/water-meter-image-cut](https://github.com/jomjol/water-meter-image-cut) |
 
-The server is also as Docker-Container available for easy implementation:
+### The server is also as Docker-Container available for easy implementation:
 * Server in Docker-Container [https://cloud.docker.com/u/jomjol/repository/docker/jomjol/wasserzaehler](https://cloud.docker.com/u/jomjol/repository/docker/jomjol/wasserzaehler)
 * GitHub-Details on Server [https://github.com/jomjol/docker-wasserzaehler](https://github.com/jomjol/docker-wasserzaehler)
 
