@@ -14,8 +14,7 @@ To get an running system one needs 3 components:
 |:--------------:|:-------------|:--------|
 | 1. Mechanical Fixture |	Hardware components to fix a camera and illumination on a water meter  | [https://www.thingiverse.com/thing:3238162](https://www.thingiverse.com/thing:3238162)  |
 | 2. Taking pictures |	ESP8266 based html server to provide pictures from the camera  | [https://github.com/jomjol/water-meter-picture-provider](https://github.com/jomjol/water-meter-picture-provider)  |
-| 3. Server for data processing and evaluation |	Image processing (Cutting, OCR, ...) to extract the needed features  | Overview: [https://github.com/jomjol/water-meter-image-cut](https://github.com/jomjol/water-meter-image-cut) 
-Server in Docker-Container [https://cloud.docker.com/u/jomjol/repository/docker/jomjol/wasserzaehler](https://cloud.docker.com/u/jomjol/repository/docker/jomjol/wasserzaehler)|
+| 3. Server for data processing and evaluation |	Image processing (Cutting, OCR, ...) to extract the needed features  | Overview: https://github.com/jomjol/water-meter-image-cut](https://github.com/jomjol/water-meter-image-cut) Server in Docker-Container [https://cloud.docker.com/u/jomjol/repository/docker/jomjol/wasserzaehler](https://cloud.docker.com/u/jomjol/repository/docker/jomjol/wasserzaehler)|
 
 
 The last repository [https://github.com/jomjol/water-meter-system-complete](https://github.com/jomjol/water-meter-system-complete) contains all previous steps (image cutting, Analog and Digital Readout) and combines them to a full functional server to extract the water meter reading from an image as input.
