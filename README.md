@@ -1,18 +1,21 @@
 # water-meter-measurement-system
 This is an overview of different project part to digitalize an analog water meter and use it for a house automatization system to controll the water consumption.
 
+**UPDATE: new Version for ESP32-CAM available on Thingiverse - much easear and cheaper due to integrated camera and illumination
+[https://www.thingiverse.com/thing:3860911](https://www.thingiverse.com/thing:3860911)**
+
 ## Overview
 
 The system consists of a hardware fixture and and successiv software code to transform this finally to a measurement value for a database input.
 
-<img src="./images/overview.png">
+<img src="./images/overview_ESP32-CAM.png">
 
 To get an running system one needs 3 components:
 
 
 | Component | 	Purpose  |	Link |
 |:--------------:|:-------------|:--------|
-| 1. Mechanical Fixture |	Hardware components to fix a camera and illumination on a water meter  | [https://www.thingiverse.com/thing:3238162](https://www.thingiverse.com/thing:3238162)  |
+| 1. Mechanical Fixture |	Hardware components to fix a camera and illumination on a water meter  | ESP32-CAM Version: [https://www.thingiverse.com/thing:3860911](https://www.thingiverse.com/thing:3860911) ESP8266 + ArduCAM: [https://www.thingiverse.com/thing:3238162](https://www.thingiverse.com/thing:3238162)  |
 | 2. Taking pictures |	ESP8266 based html server to provide pictures from the camera  | [https://github.com/jomjol/water-meter-picture-provider](https://github.com/jomjol/water-meter-picture-provider)  |
 | 3. Server for data processing and evaluation |	Image processing (Cutting, OCR, ...) to extract the needed features  | [https://github.com/jomjol/water-meter-image-cut](https://github.com/jomjol/water-meter-image-cut) |
 
