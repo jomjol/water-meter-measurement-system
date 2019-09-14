@@ -8,7 +8,7 @@ This is an overview of different project part to digitalize an analog water mete
 
 The system consists of a hardware fixture and and successiv software code to transform this finally to a measurement value for a database input.
 
-<img src="./images/overview_ESP32-CAM.png">
+<img src="./images/overview_ESP32-CAM.jpg">
 
 To get an running system one needs 3 components:
 
