@@ -15,7 +15,7 @@ To get an running system one needs 3 components:
 
 | Component | 	Purpose  |	Link |
 |:--------------:|:-------------|:--------|
-| 1. Mechanical Fixture |	Hardware components to fix a camera and illumination on a water meter  | [Version for ESP32-CAM](https://www.thingiverse.com/thing:3860911) \\ [Version for ESP8266 + ArduCAM](https://www.thingiverse.com/thing:3238162)  |
+| 1. Mechanical Fixture |	Hardware components to fix a camera and illumination on a water meter  | **[Version for ESP32-CAM](https://www.thingiverse.com/thing:3860911)**<br> [Version for ESP8266 + ArduCAM](https://www.thingiverse.com/thing:3238162)  |
 | 2. Taking pictures |	ESP8266 based html server to provide pictures from the camera  | [https://github.com/jomjol/water-meter-picture-provider](https://github.com/jomjol/water-meter-picture-provider)  |
 | 3. Server for data processing and evaluation |	Image processing (Cutting, OCR, ...) to extract the needed features  | [https://github.com/jomjol/water-meter-image-cut](https://github.com/jomjol/water-meter-image-cut) |
 
