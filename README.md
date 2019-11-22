@@ -17,13 +17,14 @@ To get an running system one needs 3 components:
 |:--------------:|:-------------|:--------|
 | 1. Mechanical Fixture |	Hardware components to fix a camera and illumination on a water meter  | **[Version for ESP32-CAM](https://www.thingiverse.com/thing:3860911)**<br> [Version for ESP8266 + ArduCAM](https://www.thingiverse.com/thing:3238162)  |
 | 2. Taking pictures |	ESP8266 based html server to provide pictures from the camera  | [https://github.com/jomjol/water-meter-picture-provider](https://github.com/jomjol/water-meter-picture-provider)  |
-| 3. Server for data processing and evaluation |	Image processing (Cutting, OCR, ...) to extract the needed features  | [https://github.com/jomjol/water-meter-image-cut](https://github.com/jomjol/water-meter-image-cut) |
+| 3. Server for data processing and evaluation |	Image processing (Cutting, OCR, ...) to extract the needed features  | [https://github.com/jomjol/water-meter-system-complete](https://github.com/jomjol/water-meter-system-complete) |
 
 ### The server is also as Docker-Container available for easy implementation:
 * Server in **Docker-Container** [https://cloud.docker.com/u/jomjol/repository/docker/jomjol/wasserzaehler](https://cloud.docker.com/u/jomjol/repository/docker/jomjol/wasserzaehler)
 * GitHub-Details on Server [https://github.com/jomjol/docker-wasserzaehler](https://github.com/jomjol/docker-wasserzaehler)
 
-
+### Additional discussion with user experience
+Extended user discussion can be found in the following forum: [https://forum.iobroker.net/topic/23577/wasserzähler-selfmade](https://forum.iobroker.net/topic/23577/wasserzähler-selfmade)
 
 #### Details on image processing and signal chain within the server:
 
