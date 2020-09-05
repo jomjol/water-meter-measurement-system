@@ -1,7 +1,7 @@
 # water-meter-measurement-system
 This is an overview of different project part to digitalize an analog water meter and use it for a house automatization system to controll the water consumption.
 
-**UPDATE: new Version for ESP32-CAM available on Thingiverse - much easear and cheaper due to integrated camera and illumination
+**UPDATE: new Version for ESP32-CAM available on Thingiverse - much easyier and cheaper due to integrated camera and illumination
 [https://www.thingiverse.com/thing:3860911](https://www.thingiverse.com/thing:3860911)**
 
 ## Overview
