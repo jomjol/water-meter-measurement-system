@@ -1,4 +1,15 @@
 # water-meter-measurement-system
+-------------------
+**Update 04.09.2020:** There is an update version available, which is more compact on the hardware side and much easier from software side, because it is an all in one device. It does not need a docker container for image analysis any more as everything, including a web based configuration server is running on the ESP32
+
+Software: https://github.com/jomjol/AI-on-the-edge-device/wiki
+
+Hardware: https://www.thingiverse.com/thing:4573481
+
+
+
+------------------
+
 This is an overview of different project part to digitalize an analog water meter and use it for a house automatization system to controll the water consumption.
 
 **UPDATE: new Version for ESP32-CAM available on Thingiverse - much easyier and cheaper due to integrated camera and illumination
